@@ -21,7 +21,7 @@ export default function Socials() {
           />
         </div>
       </a>
-      <a href="https://www.youtube.com/playlist?list=PLldFZZK1pwB4yMqIrjTflmYiNzWojqYjk">
+      <a href="https://www.youtube.com/playlist?list=PL_LhfUNf6e9CLjlgDWhd05rnttixz5s8X">
         <div className="relative h-12 w-12 transform cursor-pointer rounded-full bg-zinc-200 p-2 transition-all hover:-translate-y-1 hover:opacity-100">
           <img
             className="absolute top-1/2 left-1/2 h-6 -translate-x-1/2 -translate-y-1/2"
