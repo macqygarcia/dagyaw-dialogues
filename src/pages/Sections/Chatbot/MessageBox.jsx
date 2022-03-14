@@ -19,14 +19,24 @@ export default function MessageBox({ isVisible, setIsVisible }) {
             className="h-9 z-150 p-2 absolute top-5 right-5 cursor-pointer hover:h-9"
             onClick={() => setIsVisible(false)}
           />
-          <video className="h-28 w-full animate-bounce" loop muted autoPlay>
+
+          <div className="relative w-full h-28 flex items-center justify-center animate-bounce">
+            <img
+              className="z-20 h-28"
+              src="https://res.cloudinary.com/macqygarcia-dilg/image/upload/v1647234771/dagyaw/output-onlinegiftools_j7xdlm.gif"
+              alt="Dagyaw Bot Logo"
+            />
+            <div className="-z-10 bg-black h-12 w-16 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+          </div>
+
+          {/* <video className="h-28 w-full animate-bounce" loop muted autoPlay>
             <source
               src="https://res.cloudinary.com/macqygarcia-dilg/video/upload/v1645611733/dagyaw/Dagyaw_Bot_jfetpd.webm"
               type="video/mp4"
             />
             <source src="movie.ogg" type="video/ogg" />
             Your browser does not support the video tag.
-          </video>
+          </video> */}
 
           {/* Sections */}
           <div>

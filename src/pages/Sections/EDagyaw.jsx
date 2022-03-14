@@ -34,15 +34,32 @@ export default function EDagyaw() {
   ];
   return (
     <section className="bg-white 2xl:my-36">
-      <div className="md:h-208 relative flex flex-col items-center justify-center gap-5 p-5  py-20 lg:gap-12 xl:mx-auto xl:max-w-7xl">
-        <video className="h-48 animate-bounce" loop muted autoPlay>
+      <div className="md:h-208 rounded-full relative flex flex-col items-center justify-center gap-5 p-5  py-20 lg:gap-12 xl:mx-auto xl:max-w-7xl">
+        <div className="relative h-52 w-52 animate-bounce">
+          <img
+            className="z-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            src="https://res.cloudinary.com/macqygarcia-dilg/image/upload/v1647234771/dagyaw/output-onlinegiftools_j7xdlm.gif"
+            alt="Dagyaw Bot Logo"
+          />
+          <div className="z-10 bg-black h-24 w-32 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+        </div>
+
+        {/* <video
+          className="h-full animate-bounce rounded-full"
+          loop
+          muted
+          autoPlay
+        >
           <source
             src="https://res.cloudinary.com/macqygarcia-dilg/video/upload/v1645611733/dagyaw/Dagyaw_Bot_jfetpd.webm"
             type="video/mp4"
           />
-          <source src="movie.ogg" type="video/ogg" />
+          <source
+            src="https://res.cloudinary.com/macqygarcia-dilg/video/upload/v1647234231/dagyaw/Dagyaw_Bot_jfetpd_n2kydo.ogv"
+            type="video/ogg"
+          />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
         <h2 className="bg-gradient-to-r from-[#00959F] to-[#E17D06] bg-clip-text p-2 text-4xl text-transparent md:text-5xl xl:text-6xl">
           e-Dagyaw Mo!
         </h2>
