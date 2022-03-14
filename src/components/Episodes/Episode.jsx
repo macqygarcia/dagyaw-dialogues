@@ -53,12 +53,15 @@ export default function Episode({ episode }) {
           </a>
         )}
 
-        <button className="flex justify-center items-center gap-1 bg-[#5A9657] px-3 py-2 rounded text-zinc-200">
+        <a
+          href={episode?.videos[0]?.url}
+          className="flex justify-center items-center gap-1 bg-[#5A9657] px-3 py-2 rounded text-zinc-200"
+        >
           <PlayIcon className={`h-5 group-hover:text-white`} />
           <span className="whitespace-nowrap text-xs font-bold">
             Play Episode
           </span>
-        </button>
+        </a>
       </div>
     </div>
   );

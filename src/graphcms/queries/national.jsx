@@ -13,6 +13,9 @@ export const useEpisodes = () => {
               title
               subTitle
               date
+              videos {
+                url
+              }
               referenceMaterial {
                 name
                 fileUrl {
