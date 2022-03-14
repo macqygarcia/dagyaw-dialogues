@@ -20,7 +20,7 @@ export const navdata = [
     href: "/data-privacy-notice",
   },
   {
-    link: "View Topics",
-    href: "/view-topics",
+    link: "Recommend Topics",
+    href: "/recommend-topics",
   },
 ];

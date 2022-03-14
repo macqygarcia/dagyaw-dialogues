@@ -30,7 +30,7 @@ export default function Router({ children }) {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/downloads" element={<Downloads />} />
           <Route path="/data-privacy-notice" element={<DataPrivacy />} />
-          <Route path="/view-topics" element={<ViewTopics />} />
+          <Route path="/recommend-topics" element={<ViewTopics />} />
           {/* Chatbot Routes */}
           <Route path="/chatbot" element={<Initial />} />
           <Route

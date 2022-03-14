@@ -40,7 +40,7 @@ export default function Logo({ isVisible, setIsVisible }) {
             loop
             muted
             autoPlay
-            playsinline
+            playsInline
           >
             <source
               src="https://res.cloudinary.com/macqygarcia-dilg/video/upload/v1645611733/dagyaw/Dagyaw_Bot_jfetpd.webm"
