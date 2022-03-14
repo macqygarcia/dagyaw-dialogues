@@ -3,7 +3,7 @@ import React from "react";
 export default function Socials() {
   return (
     <div className="hidden fixed sm:flex flex-col z-40 h-full ml-2 items-center justify-center gap-5 py-5">
-      <a href="">
+      <a href="https://www.facebook.com/SupportForTheLocalGovernanceProgram">
         <div className="relative h-12 w-12 cursor-pointer rounded-full bg-zinc-200 p-2 transition-all hover:-translate-y-1 hover:opacity-100">
           <img
             className="absolute h-8"
@@ -21,7 +21,7 @@ export default function Socials() {
           />
         </div>
       </a>
-      <a href="">
+      <a href="https://www.youtube.com/channel/UC3NkttdWTwXNttjIxtx4GyA">
         <div className="relative h-12 w-12 transform cursor-pointer rounded-full bg-zinc-200 p-2 transition-all hover:-translate-y-1 hover:opacity-100">
           <img
             className="absolute top-1/2 left-1/2 h-6 -translate-x-1/2 -translate-y-1/2"
