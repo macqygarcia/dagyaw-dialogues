@@ -6,6 +6,7 @@ export default function VideoBackground() {
         loop
         muted
         autoPlay
+        playsinline
       >
         <source
           src="https://res.cloudinary.com/macqygarcia-dilg/video/upload/v1645177495/dagyaw/video-background_jdcfbc.mp4"
