@@ -46,7 +46,6 @@ export default function Logo({ isVisible, setIsVisible }) {
               src="https://res.cloudinary.com/macqygarcia-dilg/video/upload/v1645611733/dagyaw/Dagyaw_Bot_jfetpd.webm"
               type="video/mp4"
             />
-            <source src="movie.ogg" type="video/ogg" />
             Your browser does not support the video tag.
           </video>
         </div>
