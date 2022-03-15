@@ -29,15 +29,6 @@ export default function MessageBox({ isVisible, setIsVisible }) {
             <div className="-z-10 bg-black h-12 w-16 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
           </div>
 
-          {/* <video className="h-28 w-full animate-bounce" loop muted autoPlay>
-            <source
-              src="https://res.cloudinary.com/macqygarcia-dilg/video/upload/v1645611733/dagyaw/Dagyaw_Bot_jfetpd.webm"
-              type="video/mp4"
-            />
-            <source src="movie.ogg" type="video/ogg" />
-            Your browser does not support the video tag.
-          </video> */}
-
           {/* Sections */}
           <div>
             {viewKnowMore ? (

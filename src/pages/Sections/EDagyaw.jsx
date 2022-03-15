@@ -44,22 +44,6 @@ export default function EDagyaw() {
           <div className="z-10 bg-black h-24 w-32 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
         </div>
 
-        {/* <video
-          className="h-full animate-bounce rounded-full"
-          loop
-          muted
-          autoPlay
-        >
-          <source
-            src="https://res.cloudinary.com/macqygarcia-dilg/video/upload/v1645611733/dagyaw/Dagyaw_Bot_jfetpd.webm"
-            type="video/mp4"
-          />
-          <source
-            src="https://res.cloudinary.com/macqygarcia-dilg/video/upload/v1647234231/dagyaw/Dagyaw_Bot_jfetpd_n2kydo.ogv"
-            type="video/ogg"
-          />
-          Your browser does not support the video tag.
-        </video> */}
         <h2 className="bg-gradient-to-r from-[#00959F] to-[#E17D06] bg-clip-text p-2 text-4xl text-transparent md:text-5xl xl:text-6xl">
           e-Dagyaw Mo!
         </h2>

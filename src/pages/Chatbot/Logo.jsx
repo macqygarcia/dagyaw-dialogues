@@ -45,26 +45,6 @@ export default function Logo({ isVisible, setIsVisible }) {
             />
             <div className="z-10 bg-black h-12 w-20 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
           </div>
-          {/* <video
-            onClick={() => handleLogoClick()}
-            className={`h-32 transition-all duration-300 ease-in-out ${
-              minimize ? "scale-50 opacity-20 hover:opacity-100" : "scale-100"
-            }`}
-            loop
-            muted
-            autoPlay
-            playsInline
-          >
-            <source
-              src="https://res.cloudinary.com/macqygarcia-dilg/video/upload/v1645611733/dagyaw/Dagyaw_Bot_jfetpd.webm"
-              type="video/mp4"
-            />
-            <source
-              src="https://res.cloudinary.com/macqygarcia-dilg/video/upload/v1647234231/dagyaw/Dagyaw_Bot_jfetpd_n2kydo.ogv"
-              type="video/ogg"
-            />
-            Your browser does not support the video tag.
-          </video> */}
         </div>
       </div>
     )
