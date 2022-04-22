@@ -27,6 +27,7 @@ export default function About() {
             opportunities to suggest and recommend topics that can be discussed
             both in the town hall meetings or in the e-Dagyaw mo! events.
           </p>
+          <p className="text-black ">Click. Connect. Talk.</p>
         </div>
 
         <div className="flex flex-col items-start justify-center gap-3 p-5 text-sm text-justify text-zinc-900 sm:p-7 md:mx-auto md:max-w-2xl lg:max-w-3xl lg:gap-7 lg:text-xl xl:max-w-4xl">
