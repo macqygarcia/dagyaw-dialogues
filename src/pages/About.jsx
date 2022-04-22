@@ -30,7 +30,7 @@ export default function About() {
           <p className="text-black ">Click. Connect. Talk.</p>
         </div>
 
-        <div className="flex flex-col items-start justify-center gap-3 p-5 text-sm text-justify text-zinc-900 sm:p-7 md:mx-auto md:max-w-2xl lg:max-w-3xl lg:gap-7 lg:text-xl xl:max-w-4xl">
+        {/* <div className="flex flex-col items-start justify-center gap-3 p-5 text-sm text-justify text-zinc-900 sm:p-7 md:mx-auto md:max-w-2xl lg:max-w-3xl lg:gap-7 lg:text-xl xl:max-w-4xl">
           <h2 className="text-center w-full bg-gradient-to-r from-[#EC6F43] to-[#E17D06] bg-clip-text pb-2 text-4xl text-transparent md:text-5xl xl:text-6xl">
             Objectives
           </h2>
@@ -68,7 +68,7 @@ export default function About() {
           >
             View past episodes
           </a>
-        </div>
+        </div> */}
       </div>
       <div
         className="fixed top-0 left-0 w-screen h-screen bg-repeat -z-10 bg-black/90"
